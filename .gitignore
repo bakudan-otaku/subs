@@ -1,4 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# -*- mode: gitignore; -*-
 
 # dependencies
 /node_modules
@@ -24,6 +25,16 @@ next-env.d.ts
 # misc
 .DS_Store
 *.pem
+
+# emacs:
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
 
 # debug
 npm-debug.log*
